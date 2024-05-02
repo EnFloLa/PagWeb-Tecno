@@ -1,0 +1,483 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family:sans-serif;
+      
+}
+
+
+
+
+#seccion1{
+    background-color: #222;
+    flex-direction: row;
+}
+
+#banner{
+    background-color: #150883b0;
+}
+
+#banner-img{
+    opacity: 80%;
+}
+
+
+#navbar{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: auto 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+
+.cart{
+   
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+
+}
+
+.icono-search{
+    color: white;
+    margin-left: 50px;
+    
+}
+
+.cart:hover{
+    color: #FF4E00;
+    transition: all 0.3s;
+}
+
+.icono-search:hover{
+    color: #FF4E00;
+    transition: all 0.3s;
+}
+
+.search{
+    
+    width: 150px;
+    height: 25px;
+    
+}
+
+
+
+#mitem{
+    margin-left: 100px;
+    margin-right: 5px;
+}
+
+
+
+
+nav > a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+nav > a:hover {
+    color:#FF4E00;
+    transition: all 0.3s;
+    
+    
+}
+
+main{
+    padding: 0 20px;
+    background-color: #eee;
+}
+
+#seccion2-titulo{
+    margin: auto;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#titulo {
+    margin-bottom: 2rem;
+}
+
+#titulo > h2{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.hr{
+    width: 30rem;
+    border-color: #FF4E00;
+}
+
+.contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+   
+}
+
+.productos {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    background-color: white;
+}
+
+.producto_img {
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+}
+
+.nombre-producto {
+    text-align: center;
+}
+
+.precio-producto {
+    color: #FF4E00;
+    font-weight: bold;
+}
+
+.icono-prod {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #222;
+    
+}
+
+.main-footer {
+    background: #222;
+    padding: 40px 20px;
+    margin-top: 40px;
+    
+}
+.footer__txt{
+    color: #555;
+}
+
+.footer__title{
+    color: #FF4E00;
+    border-bottom: 1px dotted #555;
+    padding-bottom: 20px;
+}
+.copy {
+    color: #555;
+    padding-top: 20px;
+
+}
+
+.icono-footer{
+    color: white;
+    margin-right: 5px;
+}
+
+.footer__redes-sociales img{
+    margin: 5px;
+}
+
+.logo{
+    text-decoration: none;
+    color: #FF4E00;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+section{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+article{
+    width: 100%;
+    height: 250px;
+    margin: 1%;
+    overflow: hidden;
+}
+
+article:hover .img-ofertas{
+    height: 0px;
+    transition: all ease 1s;
+}
+
+.img-ofertas{
+    width: 97%;
+    height: 300px;
+    float: center;
+    transition: all ease 0.5s;
+    
+}
+
+
+article:hover .img-procesadores{
+    height: 0px;
+    transition: all ease 1s;
+}
+
+.img-procesadores{
+    width: 97%;
+    height: 300px;
+    float: center;
+    transition: all ease 0.5s;
+}
+
+article:hover .img-tarvid{
+    height: 0px;
+    transition: all ease 1s;
+}
+
+.img-tarvid{
+    width: 97%;
+    height: 300px;
+    float: center;
+    transition: all ease 0.5s;
+}
+
+article:hover .img-discoduro{
+    height: 0px;
+    transition: all ease 1s;
+}
+
+.img-discoduro{
+    width: 97%;
+    height: 300px;
+    float: center;
+    transition: all ease 0.5s;
+    
+}
+
+
+
+.lista{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #222;
+}
+
+.precio{
+    font-size: 20px;
+}
+
+
+
+
+article:hover .img-accesorios{
+    height: 0px;
+    transition: all ease 1s;
+}
+
+.img-accesorios{
+    width: 97%;
+    height: 250px;
+    float: center;
+    transition: all ease 0.5s;
+    
+}
+
+
+article:hover .img-powerbank{
+    height: 0px;
+    transition: all ease 1s;
+}
+
+.img-powerbank{
+    width: 97%;
+    height: 250px;
+    float: center;
+    transition: all ease 0.5s;
+}
+
+article:hover .img-mouse{
+    height: 0px;
+    transition: all ease 1s;
+}
+
+.img-mouse{
+    width: 97%;
+    height: 240px;
+    float: center;
+    transition: all ease 0.5s;
+}
+
+article:hover .img-discoEx{
+    height: 0px;
+    transition: all ease 1s;
+}
+
+.img-discoEx{
+    width: 97%;
+    height: 240px;
+    float: center;
+    transition: all ease 0.5s;
+    
+}
+
+article:hover .img-teclado{
+    height: 0px;
+    transition: all ease 1s;
+
+}
+
+.img-teclado{
+    width: 97%;
+    height: 250px;
+    float: center;
+    transition: all ease 0.5s;
+
+}
+
+article:hover .img-hubUSB{
+    height: 0px;
+    transition: all ease 1s;
+}
+
+.img-hubUSB{
+    width: 97%;
+    height: 250px;
+    float: center;
+    transition: all ease 0.5s;
+}
+
+article:hover .img-parlantes{
+    height: 0px;
+    transition: all ease 1s;
+
+}
+
+.img-parlantes{
+    width: 87%;
+    height: 250px;
+    float: center;
+    transition: all ease 0.5s;
+}
+
+    article:hover .img-otrosAccesorios{
+    height: 0px;
+    transition: all ease 1s;
+}
+
+.img-otrosAccesorios{
+    width: 87%;
+    height: 250px;
+    float: center;
+    transition: all ease 0.5s;
+    
+}
+
+
+.lista{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.precio{
+    font-size: 20px;
+}
+
+
+
+
+
+
+section{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-rows: 4;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+article{
+    width: 100%;
+    height: 250px;
+    margin: 1%;
+    overflow: hidden;
+}
+
+article:hover .img-MONITORES{
+    height: 0px;
+    transition: all ease 1s;
+}
+
+.img-MONITORES{
+    width: 97%;
+    height: 250px;
+    float: center;
+    transition: all ease 0.5s;
+    
+}
+
+
+article:hover .img-LG{
+    height: 0px;
+    transition: all ease 1s;
+}
+
+.img-LG{
+    width: 97%;
+    height: 250px;
+    float: center;
+    transition: all ease 0.5s;
+}
+
+article:hover .img-SONY{
+    height: 0px;
+    transition: all ease 1s;
+}
+
+.img-SONY{
+    width: 97%;
+    height: 250px;
+    float: center;
+    transition: all ease 0.5s;
+}
+
+article:hover .img-SAMSUNG{
+    height: 0px;
+    transition: all ease 1s;
+}
+
+.img-SAMSUNG{
+    width: 97%;
+    height: 250px;
+    float: center;
+    transition: all ease 0.5s;
+    
+}
+
+
+
+
+
+#regis>h2{
+    text-align: center;
+}

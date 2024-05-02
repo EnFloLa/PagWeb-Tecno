@@ -1,0 +1,84 @@
+    <!DOCTYPE html>
+    <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>TecnoStore - Contacto</title>
+            <link rel="stylesheet" href="css/estilos.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+        </head>
+
+        <body id="body-contacto">
+            <header>
+                <div id="seccion1">
+                    
+                    <div id="navbar">
+                    <a href="index.html" class="logo">TecnoStore</a>
+                        <nav id="mitem">  
+                            <a href="index.html">Inicio</a>
+                            <a href="Partes_de_PC.html">Partes de PC</a>
+                            <a href="accesorios.html">Accesorios</a>
+                            <a href="monitores.html">Monitores</a>
+                            <a href="">Contacto</a>
+                        </nav>
+                        <a href="" class="cart"><i class="fas fa-shopping-cart"></i></a>
+                        <i class="icono-search fas fa-search"></i>
+                        <input type="search" class="search" placeholder="Buscar Productos">
+                    </div>
+                </div>
+            </header>
+        </body> 
+        <section id="regis">
+            <h2>Registro de Usuario</h2>
+        <form id="frmusuario" onsubmit="nuevo(this)" method="post">
+            <table>
+                <tr>
+                    <td>Ingrese el DNI</td>
+                    <td><input type="number" name="txtdni" placeholder="DNI"></td>
+                </tr>
+                <tr>
+                    <td>Ingrese el Nombre</td>
+                    <td><input type="text" name="txtnombre" placeholder="Nombre"></td>                        
+                </tr>
+                <tr>
+                    <td>Ingrese el Email</td>
+                    <td><input type="email" name="txtemail" placeholder="Email"></td>                        
+                </tr>
+                <tr>
+                    <td>Ingrese la Direccion</td>
+                    <td><input name="txtdireccion" placeholder="Direccion"></td>                        
+                </tr>
+                <tr>
+                    <td>Ingrese el Telefono</td>
+                    <td><input type="tel" name="txtfono" placeholder="Telefono"></td>                        
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Enviar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        </section>
+        <footer class="main-footer">
+            <div class="footer__section">
+                <h2 class="footer__title">Dirección</h2>
+                <p class="footer__txt"><i class="icono-footer fas fa-map-marker-alt"></i>Dirección 1</p> 
+                <p class="footer__txt"><i class="icono-footer fas fa-map-marker-alt"></i>Dirección 2</p>
+                
+                <h2 class="footer__title">Contacto</h2>
+                
+                <p class="footer__txt"> <i class="icono-footer fas fa-phone"> </i> 999999999 </p>
+                <p class="footer__txt"> <i class="icono-footer fas fa-envelope"></i> tecnostore@gmail.com </p>
+            </div>
+            <div class="footer__social">
+            <a href="" class="footer__redes-sociales"><img src="img/logo-facebook.png" width="40px" height="40px"></a>
+            <a href="" class="footer__redes-sociales"><img src="img/logo-instagram.png" width="40px" height="40px"></a>
+            <a href="" class="footer__redes-sociales"><img src="img/logo-twitter.png" width="40px" height="40px"></a>
+            </div>
+            <p class="copy">© 2021 TecnoStore Todos los derechos reservados.</p>
+            
+        </footer>
+    </html>    
+    <script src="js/scriptfrm.js"></script>
+           
